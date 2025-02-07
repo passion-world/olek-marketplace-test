@@ -20,7 +20,7 @@ export default function Header() {
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed w-full bg-gray-900/95 backdrop-blur-md z-50 border-b border-gray-800"
+      className="fixed w-full bg-gray-900/95 backdrop-blur-md z-50 border-b border-gray-800" aria-label="Website Header"
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
@@ -42,8 +42,8 @@ export default function Header() {
                 <motion.span
                   whileHover={{ y: -2 }}
                   className={`${pathname === item.href
-                      ? 'text-purple-400'
-                      : 'text-gray-600 dark:text-gray-300 hover:text-purple-400'
+                      ? 'text-purple-600'
+                      : 'text-gray-400 dark:text-gray-100 hover:text-purple-600'
                     } px-3 py-2 text-sm font-medium transition-colors`}
                 >
                   {item.name}
@@ -51,6 +51,7 @@ export default function Header() {
               </Link>
             ))}
           </div>
+
 
 
           {/* Mobile menu button */}
