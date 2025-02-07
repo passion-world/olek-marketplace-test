@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Product Marketing Application
 
-## Getting Started
+## 📝 Developer Test Assignment Overview
 
-First, run the development server:
+This project is a responsive, marketing-focused web application using Next.js that demonstrates proficiency in modern web development practices and SEO optimization. Developed within a 4-6 hour timeframe, the focus has been on quality implementation of core features.
 
+## 🚀 Technologies Used
+
+- **Framework**: Next.js 15
+- **Styling**: TailwindCSS
+- **Type Safety**: TypeScript
+- **Containerization**: Docker
+- **Linting**: ESLint with Next.js plugin
+- **Code Formatting**: Prettier
+
+## ✨ Key Features
+
+### 1. Product Listing Page
+- Fetch and display products from mock REST API
+- Implement loading states and error handling
+- Responsive design (mobile, tablet, desktop)
+- Basic filtering functionality
+
+### 2. Product Detail Page
+- Dynamic routing for individual products
+- SEO best practices:
+  - Meta tags
+  - Open Graph tags
+  - Proper heading hierarchy
+  - Clean URL structure
+
+### 3. Navigation
+- Responsive header with navigation menu
+- Breadcrumb navigation
+- Footer with relevant links
+
+## 🛠 Technical Requirements
+
+### Data Handling
+- REST API data fetching
+- Loading and error state management
+- Basic data caching implementation
+
+### Code Quality
+- Clean, well-documented code
+- Modular component organization
+- TypeScript type safety
+- Comprehensive Git commit history
+
+## 🖥 Local Development Setup
+
+### Prerequisites
+- Node.js (v20+)
+- npm (v10+)
+- Docker (optional)
+
+### Installation Steps
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/nextjs-product-app.git
+cd nextjs-product-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open http://localhost:3000
 
-## Learn More
+🐳 Docker Deployment
+Build Docker Image
+```bash
+npm run docker:build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Run Docker Container
+```bash
+npm run docker:up
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📂 Project Structure
+src/
+├── app/                # Next.js app router
+│   ├── products/       # Product-related pages
+│   └── layout.tsx      # Global layout
+├── components/         # Reusable React components
+├── lib/                # Utility functions and API calls
+├── types/              # TypeScript type definitions
+└── styles/             # Global styles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧪 Development Commands
+Linting
+```bash
+# Check linting issues
+npm run lint
 
-## Deploy on Vercel
+# Automatically fix linting issues
+npm run lint:fix
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Formatting
+```bash
+# Format all files
+npm run format
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Testing
+```bash
+# Run tests
+npm test
+```
+
+🚧 Known Limitations
+- Mock data used for products
+- Basic product listing and detail views
+- Limited advanced filtering
+
+🎯 Performance Optimizations
+- Server-side rendering
+- Efficient data fetching
+- Minimal bundle size
+- Responsive design
+
+🤝 Contributing
+1. Fork the repository
+2. Create feature branch (git checkout -b feature/AmazingFeature)
+3. Commit changes (git commit -m 'Add AmazingFeature')
+4. Push to branch (git push origin feature/AmazingFeature)
+5. Open Pull Request
+
+📊 Evaluation Criteria
+- Code quality and organization
+- REST API implementation
+- SEO optimization
+- Responsive design
+- Docker configuration
+- Git commit history
+- Documentation quality
