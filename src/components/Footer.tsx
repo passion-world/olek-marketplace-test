@@ -2,6 +2,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -15,13 +16,13 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} TechStore. All rights reserved.
         </p>
         <p className="text-sm">
-          <a href="/" className="text-purple-400 hover:text-purple-300">
+          <Link href="/" className="text-purple-400 hover:text-purple-300">
             Privacy Policy
-          </a>
+          </Link>
           {' | '}
-          <a href="/" className="text-purple-400 hover:text-purple-300">
+          <Link href="/" className="text-purple-400 hover:text-purple-300">
             Terms of Service
-          </a>
+          </Link>
         </p>
       </div>
     </motion.footer>
