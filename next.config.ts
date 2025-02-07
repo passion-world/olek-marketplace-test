@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'standalone',
+  reactStrictMode: true,
+  poweredByHeader: false,
+  productionBrowserSourceMaps: false,
+  generateEtags: true,
+  env: {
+    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+  },
 };
 
 export default nextConfig;
