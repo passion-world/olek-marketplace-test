@@ -1,0 +1,13 @@
+[33m685fd66[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m fix: prevent Vercel from overwriting custom favicon
+[33m2ea2de7[m docs: update README with latest instructions and improvements
+[33ma90a511[m feat: implement product listing and detail pages
+[33md5377e0[m chore: add Docker configuration
+[33m24e417c[m chore: add product images and assets
+[33m3c75130[m feat: setup app layout and global styles
+[33m1ff1bd8[m feat: add product-related components
+[33ma2177e4[m feat: implement core layout components
+[33m7254fbf[m feat: add API utilities and custom hooks
+[33m23d1632[m feat: add mock product data
+[33m55bdcc3[m feat: add TypeScript interfaces and types
+[33md1cfe9d[m chore: initial project setup with Next.js, TypeScript, and TailwindCSS
+[33m20d04bf[m Initial commit from Create Next App

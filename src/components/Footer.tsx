@@ -15,11 +15,11 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} TechStore. All rights reserved.
         </p>
         <p className="text-sm">
-          <a href="/privacy" className="text-purple-400 hover:text-purple-300">
+          <a href="/" className="text-purple-400 hover:text-purple-300">
             Privacy Policy
           </a>
           {' | '}
-          <a href="/terms" className="text-purple-400 hover:text-purple-300">
+          <a href="/" className="text-purple-400 hover:text-purple-300">
             Terms of Service
           </a>
         </p>

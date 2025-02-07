@@ -59,6 +59,7 @@ export default function Header() {
               whileTap={{ scale: 0.95 }}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              aria-label="Open Menu"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </motion.button>

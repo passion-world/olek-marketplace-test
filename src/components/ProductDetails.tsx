@@ -46,6 +46,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
                 </div>
                 <motion.button
                     whileHover={{ scale: 1.05 }}
+                    aria-label="Add to Cart"
                     className="mt-8 flex w-full items-center justify-center rounded-lg bg-purple-600 px-8 py-3 text-base font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
                 >
                     Add to Cart

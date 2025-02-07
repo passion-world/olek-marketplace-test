@@ -19,6 +19,7 @@ export default function ProductCard({ product }: { product: Product }) {
             <motion.img
               src={product.image}
               alt={product.name}
+              title={product.name}
               className="h-full w-full object-cover object-center"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
@@ -26,9 +27,9 @@ export default function ProductCard({ product }: { product: Product }) {
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent" />
           </div>
           <div className="p-6">
-            <h3 className="text-lg font-medium text-white group-hover:text-purple-400 transition-colors">
+            <h2 className="text-lg font-medium text-white group-hover:text-purple-400 transition-colors">
               {product.name}
-            </h3>
+            </h2>
             <div className="mt-4 flex items-center justify-between">
               <motion.p 
                 className="text-2xl font-bold text-purple-400"
