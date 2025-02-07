@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Premium Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation and premium sound quality.",
+      "price": 299.99,
+      "image": "/images/headphones.jpg",
+      "category": "Audio",
+      "features": [
+        "Active Noise Cancellation",
+        "40-hour battery life",
+        "Premium sound quality",
+        "Bluetooth 5.0"
+      ],
+      "specifications": {
+        "brand": "TechAudio",
+        "color": "Midnight Black",
+        "weight": "250g",
+        "connectivity": "Wireless"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Smart Fitness Watch",
+      "description": "Advanced fitness tracking with heart rate monitoring and GPS.",
+      "price": 199.99,
+      "image": "/images/watch.jpg",
+      "category": "Wearables",
+      "features": [
+        "Heart Rate Monitor",
+        "GPS Tracking",
+        "Water Resistant",
+        "7-day battery life"
+      ],
+      "specifications": {
+        "brand": "FitTech",
+        "color": "Silver",
+        "weight": "45g",
+        "display": "AMOLED"
+      }
+    },
+    {
+      "id": "3",
+      "name": "4K Ultra HD Camera",
+      "description": "Professional-grade camera with 4K video recording capabilities.",
+      "price": 899.99,
+      "image": "/images/camera.jpg",
+      "category": "Photography",
+      "features": [
+        "4K Video Recording",
+        "20MP Photos",
+        "Image Stabilization",
+        "Wi-Fi Connected"
+      ],
+      "specifications": {
+        "brand": "PhotoPro",
+        "color": "Black",
+        "weight": "680g",
+        "sensor": "Full Frame"
+      }
+    }
+  ],
+  "total": 3,
+  "page": 1,
+  "limit": 10
+}
